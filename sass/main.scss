@@ -1,0 +1,115 @@
+// Importando configurações globais
+@import "./base/reset.scss";
+@import "./base/variables.scss";
+@import "./base/mixins.scss";
+@import "./base/globals.scss";
+@import "./base/typography.scss";
+
+// Importando componentes
+@import "./commnets/buttons.scss";
+@import "./commnets/cards.scss";
+@import "./commnets/forms.scss";
+@import "./commnets/navbar.scss";
+
+// Importando layout
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+@import "./layout/grid.scss";
+@import "./layout/sidebar.scss";
+
+// Importando páginas
+@import "./pages/home.scss";
+@import "./pages/about.scss";
+@import "./pages/contact.scss";
+
+// Importando temas (se necessário)
+@import "./themes/dark.scss";
+@import "./themes/light.scss";
+
+// Importando bibliotecas de terceiros
+@import "./vendors/bootstrap.scss";
+@import "./vendors/custom.scss";
+
+
+
+
+body{
+    background-color: $fundo-color;
+}
+
+    
+    
+
+    
+
+.logo{
+    text-decoration: none;
+    color: white;
+    height: 50px;
+
+}
+
+.banner{
+    height: 400px;
+    background-color: red;
+    width: 700px;
+}
+section{
+    display: flex;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+    
+}
+
+article:nth-child(2){
+    
+        height: 292px;
+        width: 45%;
+        text-align: justify;
+        background-color: rgb(149 4 4);
+        padding: 15px;
+        max-width: 75%;
+        & h1 {
+
+            margin: 15px;
+            font-size: 4rem;
+        }
+        & p{
+
+            color: white;
+
+        }
+
+}
+
+
+.banner{
+    height: 400px;
+}
+
+@media only screen and (max-width: 1372px){
+
+
+ article{
+    width: 450px;
+    display: flex;
+    justify-content: center ;
+ }
+ .banner{
+    width: 468px;
+ }
+ article:nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+
+
+        
+
+
+    
+}

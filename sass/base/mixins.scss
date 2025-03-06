@@ -1,0 +1,10 @@
+
+@mixin nav-bar($display2,$hei,$width2,$padd){
+
+    display: $display2;
+    height: $hei;
+    width: $width2;
+    padding: $padd;
+
+
+}

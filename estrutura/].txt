@@ -1,0 +1,32 @@
+📂 projeto/
+│── 📂 scss/          # Diretório principal dos arquivos Sass
+│   ├── 📂 base/      # Configurações globais e resets
+│   │   ├── _reset.scss       # Reset CSS ou Normalize.css
+│   │   ├── _variables.scss   # Variáveis (cores, fontes, espaçamentos)
+│   │   ├── _mixins.scss      # Mixins reutilizáveis
+│   │   ├── _globals.scss     # Estilos globais
+│   │   ├── _typography.scss  # Tipografia
+│   ├── 📂 components/  # Componentes reutilizáveis
+│   │   ├── _buttons.scss     # Botões
+│   │   ├── _cards.scss       # Cartões
+│   │   ├── _forms.scss       # Formulários
+│   │   ├── _navbar.scss      # Barra de navegação
+│   ├── 📂 layout/      # Layout da página
+│   │   ├── _header.scss      # Cabeçalho
+│   │   ├── _footer.scss      # Rodapé
+│   │   ├── _grid.scss        # Sistema de grid
+│   │   ├── _sidebar.scss     # Barra lateral
+│   ├── 📂 pages/       # Estilos específicos de cada página
+│   │   ├── _home.scss       # Página inicial
+│   │   ├── _about.scss      # Página sobre
+│   │   ├── _contact.scss    # Página de contato
+│   ├── 📂 themes/      # Temas (se necessário)
+│   │   ├── _dark.scss       # Tema escuro
+│   │   ├── _light.scss      # Tema claro
+│   ├── 📂 vendors/     # Bibliotecas de terceiros
+│   │   ├── _bootstrap.scss  # Bootstrap ou outra biblioteca
+│   │   ├── _custom.scss     # Customizações de bibliotecas externas
+│   ├── main.scss        # Arquivo principal que importa todos os outros
+│── 📂 css/              # CSS compilado (não precisa ser editado manualmente)
+│   ├── main.css         # Arquivo final de estilos
+│   ├── main.css.map     # Mapa de origem do Sass para debug

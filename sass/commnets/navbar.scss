@@ -1,0 +1,17 @@
+nav {
+    background-color: $nav-bar-color;
+    @include nav-bar(flex, 70px, 100%, 0px);
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+
+    ul {  // Adicionei um seletor para a lista
+        list-style: none; // Remove os marcadores da lista
+
+        li {
+            display: inline-block; // inline-block para melhor controle do espaçamento
+            margin: 4px;
+            padding: 4px;
+        }
+    }
+}
