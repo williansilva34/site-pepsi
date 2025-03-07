@@ -16,25 +16,23 @@ li {
   font-style: normal;
 }
 
-.btndiv {
-  height: 78px;
+#btn1 {
   display: flex;
-  align-items: center;
-  width: 8%;
-  justify-content: center;
+  width: 100%;
 }
-.btndiv button {
+#btn1 button {
   background-color: blue;
   color: white;
   padding: 5px;
+  border-radius: 3px;
+  color: white;
   border: none;
-  border-bottom-left-radius: 10px;
 }
 
 nav {
   background-color: rgb(255, 255, 255);
   display: flex;
-  height: 70px;
+  height: 80px;
   width: 100%;
   padding: 0px;
   text-align: center;
@@ -50,65 +48,55 @@ nav ul li {
   padding: 4px;
 }
 
-body {
-  background-color: #00caa2;
-}
-
 .logo {
-  text-decoration: none;
-  color: white;
-  height: 50px;
+  height: auto;
+  width: 14px;
+  padding: 0%;
 }
 
-.banner {
-  height: 400px;
-  background-color: red;
-  width: 700px;
+.logo img {
+  height: 60px;
 }
 
-section {
-  display: flex;
+.section {
+  height: 90vh;
   width: 100%;
+  display: flex;
   background-color: rgb(0, 0, 0);
-  text-align: center;
-  justify-content: space-evenly;
-  height: 500px;
+  justify-content: space-around;
   align-items: center;
+  padding: 5%;
 }
 
-article:nth-child(2) {
-  height: 292px;
-  width: 45%;
+#article1 {
+  display: flex;
+  height: 450px;
+  width: 100%;
+  background-color: orange;
+  margin: 3%;
+}
+
+#article2 {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  margin: 3%;
   text-align: justify;
-  background-color: rgb(149, 4, 4);
-  padding: 15px;
-  max-width: 75%;
-}
-article:nth-child(2) h1 {
-  margin: 15px;
-  font-size: 4rem;
-}
-article:nth-child(2) p {
-  color: white;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .banner {
-  height: 400px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
 }
 
-@media only screen and (max-width: 1372px) {
-  article {
-    width: 450px;
-    display: flex;
-    justify-content: center;
-  }
-  .banner {
-    width: 468px;
-  }
-  article:nth-child(2) {
-    display: flex;
-    flex-direction: column;
-  }
+#tit1 {
+  font-size: 3rem;
+  color: white;
 }
 
 /*# sourceMappingURL=css2.css.map */

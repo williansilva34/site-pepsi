@@ -1,6 +1,6 @@
 nav {
     background-color: $nav-bar-color;
-    @include nav-bar(flex, 70px, 100%, 0px);
+    @include nav-bar(flex, 80px, 100%, 0px);
     text-align: center;
     justify-content: space-around;
     align-items: center;
@@ -14,4 +14,14 @@ nav {
             padding: 4px;
         }
     }
+}
+
+.logo {
+    height: auto;
+    width: 14px;
+    padding: 0%;
+}
+
+.logo img{
+    height: 60px;
 }
