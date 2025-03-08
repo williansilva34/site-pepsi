@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -16,17 +17,39 @@ li {
   font-style: normal;
 }
 
-#btn1 {
-  display: flex;
-  width: 100%;
-}
-#btn1 button {
-  background-color: blue;
-  color: white;
-  padding: 5px;
-  border-radius: 3px;
-  color: white;
+#btn1 .btn {
+  background: none;
+  padding: 5px 20px;
+  font-size: 20px;
+  cursor: pointer;
   border: none;
+  border: 0.5px solid white;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  z-index: 22222;
+}
+#btn1 .btn::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 0%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(244, 0, 2) 45%, rgb(0, 212, 255) 100%);
+  z-index: -1;
+  transition: 0.7s;
+}
+#btn1 .btn1:before {
+  top: 0;
+  border-radius: 0 0 40% 40%;
+}
+#btn1 .btn1:hover::before {
+  height: 180%;
+}
+#btn1 .btn1 {
+  color: rgb(255, 255, 255);
 }
 
 nav {
@@ -55,7 +78,13 @@ nav ul li {
 }
 
 .logo img {
-  height: 50px;
+  height: 60px;
+}
+
+#tit1 {
+  font-family: "Prompt", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .section {
@@ -97,6 +126,18 @@ nav ul li {
 #tit1 {
   font-size: 3rem;
   color: white;
+}
+
+@media screen and (max-width: 898px) {
+  #article1 {
+    display: none;
+  }
+  #article2 {
+    text-align: center;
+  }
+}
+body {
+  background-color: orange;
 }
 
 /*# sourceMappingURL=css2.css.map */
