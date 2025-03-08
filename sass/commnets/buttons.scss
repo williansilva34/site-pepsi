@@ -9,12 +9,14 @@
         font-size: 20px;
         cursor: pointer;
         border: none;
-        border: 0.5px solid white;
-        margin: 10px;
+        border: 0.5px solid rgb(20, 80, 192);
+        margin: 1px;
         transition: 0.8s;
         position: relative;
         overflow: hidden;
         z-index: 22222;
+        letter-spacing: 2px;
+        text-transform: uppercase;
 
     }
     .btn::before{

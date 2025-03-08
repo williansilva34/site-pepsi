@@ -23,12 +23,14 @@ li {
   font-size: 20px;
   cursor: pointer;
   border: none;
-  border: 0.5px solid white;
-  margin: 10px;
+  border: 0.5px solid rgb(20, 80, 192);
+  margin: 1px;
   transition: 0.8s;
   position: relative;
   overflow: hidden;
   z-index: 22222;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 #btn1 .btn::before {
   content: "";
@@ -85,6 +87,8 @@ nav ul li {
   font-family: "Prompt", sans-serif;
   font-weight: 100;
   font-style: normal;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: white;
 }
 
 .section {
