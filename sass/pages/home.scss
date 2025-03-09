@@ -16,6 +16,7 @@
         width: 100%;
         background-color: orange;
       margin: 3%;
+      flex-direction: column;
         }
 
     #article2{
@@ -31,13 +32,18 @@
       
     }
 
-.banner{
+    
+    #article3{
+       
+        @include article(flex,300px,100%,orange,3%,column);
+    }
+    #article4{
+       
+        @include article(flex,300px,100%,orange,3%,column);
+    }
 
-    @include nav-bar(flex, 100%, 100%, 0px);
-
-}
-
-#tit1{
-    font-size: 3rem;
-    color: white;;
-}
+  
+        .hamb{
+            display: none;
+        }
+    

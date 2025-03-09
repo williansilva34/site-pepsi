@@ -1,0 +1,11 @@
+.banner{
+
+    @include nav-bar(flex, 100%, 100%, 0px);
+
+}
+
+#banner2{
+    border-top-right-radius: 30%;
+}
+
+

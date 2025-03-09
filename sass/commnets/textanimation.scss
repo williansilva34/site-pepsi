@@ -10,3 +10,21 @@
     -webkit-text-stroke: 0.5px;
     -webkit-text-stroke-color: white;
 }
+
+
+#tit1{
+    font-size: 3rem;
+    color: white;;
+}
+
+// texto centro
+
+.textocentro{
+    text-align: center ;
+    display: flex;
+    height: 140px;
+    width: 100%;
+    justify-content: center;
+    background-color: pink;
+    flex-direction: column;
+}

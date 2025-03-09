@@ -8,3 +8,15 @@
 
 
 }
+
+
+@mixin article($display,$hei,$wid,$back,$mar,$flex-dir){
+
+
+    display: $display;
+    height: $hei;
+    width: $wid;
+    background-color: $back;
+    margin: $mar;
+    flex-direction: $flex-dir;
+}

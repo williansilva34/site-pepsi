@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -15,6 +16,27 @@ li {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+#tit1 {
+  font-family: "Prompt", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: white;
+}
+
+#tit1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.textocentro {
+  text-align: center;
+  display: flex;
+  height: 140px;
+  width: 100%;
+  justify-content: center;
 }
 
 #btn1 .btn {
@@ -91,6 +113,51 @@ nav ul li {
   -webkit-text-stroke-color: white;
 }
 
+#tit1 {
+  font-size: 3rem;
+  color: white;
+}
+
+.textocentro {
+  text-align: center;
+  display: flex;
+  height: 140px;
+  width: 100%;
+  justify-content: center;
+  background-color: pink;
+  flex-direction: column;
+}
+
+.centralizar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: green;
+}
+
+.banner {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+}
+
+#banner2 {
+  border-top-right-radius: 30%;
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+.lista li {
+  margin: 10px;
+  font-size: 22px;
+}
+
 .section {
   height: 90vh;
   width: 100%;
@@ -107,6 +174,7 @@ nav ul li {
   width: 100%;
   background-color: orange;
   margin: 3%;
+  flex-direction: column;
 }
 
 #article2 {
@@ -120,16 +188,26 @@ nav ul li {
   gap: 20px;
 }
 
-.banner {
+#article3 {
   display: flex;
-  height: 100%;
+  height: 300px;
   width: 100%;
-  padding: 0px;
+  background-color: orange;
+  margin: 3%;
+  flex-direction: column;
 }
 
-#tit1 {
-  font-size: 3rem;
-  color: white;
+#article4 {
+  display: flex;
+  height: 300px;
+  width: 100%;
+  background-color: orange;
+  margin: 3%;
+  flex-direction: column;
+}
+
+.hamb {
+  display: none;
 }
 
 @media screen and (max-width: 898px) {
@@ -138,6 +216,12 @@ nav ul li {
   }
   #article2 {
     text-align: center;
+  }
+  .hamb {
+    display: block;
+  }
+  nav ul li {
+    display: none;
   }
 }
 body {
