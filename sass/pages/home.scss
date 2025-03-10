@@ -44,19 +44,19 @@
     }
  #article5{ 
  
- @include article(flex,350px,25%,white,3%,column);
+ @include article(flex,350px,15%,white,0%,column);
  border-radius:10px;
  }
   
   #article6{ 
  
- @include article(flex,350px,25%,orange,3%,column);
+ @include article(flex,350px,25%,orange,0%,column);
  border-radius:10px;
  }
   
   #article7{ 
  
- @include article(flex,350px,25%,orange,3%,column);
+ @include article(flex,350px,25%,orange,0%,column);
  border-radius:10px;
  }
   
