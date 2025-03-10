@@ -44,3 +44,30 @@
     justify-content: center;
 
 }
+.textocentro2{
+    background: pink;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+	flex-direction:column;
+	
+}
+
+	
+.titulos{
+	
+	text-align:center;
+	
+
+}
+.texto{
+text-align: justify;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 23px;
+
+}
+

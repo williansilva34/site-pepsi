@@ -39,9 +39,26 @@
     }
     #article4{
        
-        @include article(flex,300px,100%,orange,3%,column);
+        @include article(flex,500px,100%,orange,3%,column);
+		border-radius:10px;
     }
-
+ #article5{ 
+ 
+ @include article(flex,350px,25%,white,3%,column);
+ border-radius:10px;
+ }
+  
+  #article6{ 
+ 
+ @include article(flex,350px,25%,orange,3%,column);
+ border-radius:10px;
+ }
+  
+  #article7{ 
+ 
+ @include article(flex,350px,25%,orange,3%,column);
+ border-radius:10px;
+ }
   
         .hamb{
             display: none;

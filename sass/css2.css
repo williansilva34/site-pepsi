@@ -38,6 +38,28 @@ li {
   justify-content: center;
 }
 
+.textocentro2 {
+  background: pink;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.titulos {
+  text-align: center;
+}
+
+.texto {
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 23px;
+}
+
 #btn1 .btn {
   background: none;
   padding: 5px 20px;
@@ -123,6 +145,21 @@ nav ul li {
   border-top-right-radius: 30%;
 }
 
+#banner3 {
+  heigth: 50px;
+}
+
+.imgdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42%;
+}
+
+.imgdiv img {
+  height: 100px;
+}
+
 .lista {
   display: flex;
   justify-content: center;
@@ -175,11 +212,42 @@ nav ul li {
 
 #article4 {
   display: flex;
-  height: 300px;
+  height: 500px;
   width: 100%;
   background-color: orange;
   margin: 3%;
   flex-direction: column;
+  border-radius: 10px;
+}
+
+#article5 {
+  display: flex;
+  height: 350px;
+  width: 25%;
+  background-color: white;
+  margin: 3%;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+#article6 {
+  display: flex;
+  height: 350px;
+  width: 25%;
+  background-color: orange;
+  margin: 3%;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+#article7 {
+  display: flex;
+  height: 350px;
+  width: 25%;
+  background-color: orange;
+  margin: 3%;
+  flex-direction: column;
+  border-radius: 10px;
 }
 
 .hamb {

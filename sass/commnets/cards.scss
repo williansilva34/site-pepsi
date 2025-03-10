@@ -1,0 +1,11 @@
+@mixin cards($heig,$wid,$display,$background){
+	
+	height:$heig;
+	width:$wid;
+	display:$display;
+	background:$background;
+	justify-content:space-around;
+	margin:20px;
+
+}
+
