@@ -267,6 +267,20 @@ nav ul li {
   nav ul li {
     display: none;
   }
+  .section2 {
+    display: block;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    text-align: -webkit-center;
+  }
+  .flex #article5 {
+    width: 100%;
+    margin: 0px;
+  }
 }
 body {
   background-color: orange;
