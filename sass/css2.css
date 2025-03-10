@@ -270,6 +270,8 @@ nav ul li {
   .section2 {
     display: block;
   }
+}
+@media screen and (max-width: 1577px) {
   .flex {
     display: flex;
     justify-content: center;
@@ -279,6 +281,8 @@ nav ul li {
   }
   .flex #article5 {
     width: 100%;
+    margin-bottom: 30px;
+    margin: 2px;
     margin-bottom: 30px;
   }
 }
