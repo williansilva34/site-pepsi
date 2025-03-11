@@ -98,8 +98,9 @@ li {
 }
 
 #btn1 {
-  width: 35%;
+  width: 100%;
   display: flex;
+  margin-top: 5%;
 }
 
 nav {
