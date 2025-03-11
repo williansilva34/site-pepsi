@@ -133,7 +133,7 @@ nav ul li {
 }
 
 .logo img {
-  height: 60px;
+  height: 30px;
 }
 
 .centralizar {
@@ -356,7 +356,7 @@ footer {
   }
 }
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: orange;
 }
 
 /*# sourceMappingURL=css2.css.map */
