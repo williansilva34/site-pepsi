@@ -26,6 +26,8 @@
     
 
 
+
+
 }
 
 @media  screen and (max-width:1577px){
@@ -56,3 +58,23 @@
    }
 
 }
+
+@media  screen and (max-width:899px){
+
+    
+ footer{
+    margin-top: 149vh;
+    display: flex;
+ }
+  
+  }
+  
+  @media  screen and (max-width:470px){
+
+    
+    footer{
+    display: block;
+    }
+     
+     }
+     
