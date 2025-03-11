@@ -97,6 +97,11 @@ li {
   color: rgb(255, 255, 255);
 }
 
+#btn1 {
+  width: 35%;
+  display: flex;
+}
+
 nav {
   background-color: rgb(255, 255, 255);
   display: flex;
@@ -131,7 +136,7 @@ nav ul li {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: green;
+  color: white;
 }
 
 .banner {
@@ -195,26 +200,28 @@ nav ul li {
   height: 300px;
   width: 100%;
   margin: 3%;
-  text-align: justify;
-  justify-content: center;
   flex-direction: column;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 #article3 {
   display: flex;
   height: 300px;
   width: 100%;
-  background-color: orange;
+  background-color: rgb(0, 0, 0);
   margin: 3%;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #article4 {
   display: flex;
-  height: 500px;
+  height: 300px;
   width: 100%;
-  background-color: orange;
+  background-color: rgb(0, 0, 0);
   margin: 3%;
   flex-direction: column;
   border-radius: 10px;
@@ -258,9 +265,6 @@ nav ul li {
   #article1 {
     display: none;
   }
-  #article2 {
-    text-align: center;
-  }
   .hamb {
     display: block;
   }
@@ -282,8 +286,11 @@ nav ul li {
   .flex #article5 {
     width: 100%;
     margin-bottom: 30px;
-    margin: 2px;
-    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 1545px) {
+  #article5 {
+    margin: 6px;
   }
 }
 body {
